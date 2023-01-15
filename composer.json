@@ -1,32 +1,32 @@
 {
-    "name": "yo2uno/polyfill-mbstring",
+    "name": "yo2uno/polyfill-stringmb",
     "type": "library",
-    "description": "Symfony polyfill for the Mbstring extension",
-    "keywords": ["polyfill", "shim", "compatibility", "portable", "mbstring"],
-    "homepage": "https://symfony.com",
+    "description": "Symfony polyfill for the stringmb extension",
+    "keywords": ["polyfill", "shim", "compatibility", "portable", "stringmb"],
+    "homepage": "https://blckswan.no",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nicolas Grekas",
+            "name": "Anders Pippi",
             "email": "p@tchwork.com"
         },
         {
             "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
+            "homepage": "https://blckswan.no/contributors"
         }
     ],
     "require": {
         "php": ">=7.1"
     },
     "provide": {
-        "ext-mbstring": "*"
+        "ext-stringmb": "*"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Polyfill\\Mbstring\\": "" },
+        "psr-4": { "Symfony\\Polyfill\\stringmb\\": "" },
         "files": [ "bootstrap.php" ]
     },
     "suggest": {
-        "ext-mbstring": "For best performance"
+        "ext-stringmb": "For best performance"
     },
     "minimum-stability": "dev",
     "extra": {

@@ -1,8 +1,8 @@
-Symfony Polyfill / Mbstring
+Symfony Polyfill / stringmb
 ===========================
 
 This component provides a partial, native PHP implementation for the
-[Mbstring](https://php.net/mbstring) extension.
+[stringmb](https://php.net/stringmb) extension.
 
 More information can be found in the
 [main Polyfill README](https://github.com/symfony/polyfill/blob/main/README.md).
